@@ -14,6 +14,15 @@ const HomePage = () => {
     "Conformidade com LGPD Assegurada"
   ];
 
+  const benefitsDescriptions = [
+  "Alcance máxima eficiência com nossa categorização automática de chamados, totalmente potencializada por IA.",
+  "Priorize suas demandas com inteligência avançada e agilize o atendimento com nosso sistema impulsionado por IA.",
+  "Tenha acesso a relatórios gerenciais detalhados e perspicazes que transformam dados em decisões estratégicas.",
+  "Garanta acessibilidade e suporte eficiente em múltiplas plataformas, com tecnologia de IA que acompanha você onde estiver.",
+  "Proteja seus dados com uma segurança robusta e inteligente, apoiada pelas melhores práticas em IA.",
+  "Assegure conformidade total com a LGPD, integrando políticas de privacidade impulsionadas por IA para sua tranquilidade."
+];
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -90,7 +99,7 @@ const HomePage = () => {
                     <CheckCircle className="h-10 w-10 text-primary mb-4" />
                     <h3 className="text-2xl font-semibold text-foreground mb-2">{benefit}</h3>
                     <p className="text-muted-foreground">
-                      Experimente uma eficiência nunca antes vista com nossa {benefit.toLowerCase().replace("tickets", "chamados")} impulsionada por IA.
+                      {benefitsDescriptions[index]}
                     </p>
                   </motion.div>
                 ))}
