@@ -59,7 +59,7 @@ const TeamPage = () => {
       >
         <motion.h1 variants={itemVariants} className="text-5xl font-extrabold text-primary mb-4">Conheça a Equipe</motion.h1>
         <motion.p variants={itemVariants} className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Os talentosos indivíduos por trás do Sistema de Gestão de Help Desk NewTech.
+          Os talentosos indivíduos por trás do Sistema de Gestão de Chamados da NewTech.
         </motion.p>
       </motion.section>
 
