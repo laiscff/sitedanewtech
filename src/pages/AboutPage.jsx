@@ -40,7 +40,7 @@ const AboutPage = () => {
       >
         <motion.h1 variants={itemVariants} className="text-5xl font-extrabold text-primary mb-4">Sobre a NewTech</motion.h1>
         <motion.p variants={itemVariants} className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Descubra a visão, missão e tecnologia por trás do nosso Sistema de Gestão de Help Desk com Inteligência Artificial.
+          Descubra a visão, missão e tecnologia por trás do nosso Sistema de Gestão de Chamados com Inteligência Artificial.
         </motion.p>
       </motion.section>
 
@@ -57,11 +57,11 @@ const AboutPage = () => {
             <CardHeader>
               <CardTitle className="flex items-center text-3xl text-primary">
                 <Lightbulb className="h-10 w-10 mr-3" />
-                Enfrentando as Ineficiências do Help Desk
+                Enfrentando as Ineficiências de Chamados
               </CardTitle>
             </CardHeader>
             <CardContent className="text-lg text-foreground/90 space-y-4 p-8">
-              <p>Sistemas de help desk tradicionais frequentemente lutam com processamento manual de tickets, tempos de resposta lentos e qualidade de suporte inconsistente. Isso leva a usuários frustrados, agentes de suporte sobrecarregados e falta de insights acionáveis para a gerência.</p>
+              <p>Sistemas de chamados tradicionais frequentemente lutam com processamento manual de tickets, tempos de resposta lentos e qualidade de suporte inconsistente. Isso leva a usuários frustrados, agentes de suporte sobrecarregados e falta de insights acionáveis para a gerência.</p>
               <p>A NewTech enfrenta esses desafios de frente, introduzindo automação inteligente, triagem otimizada e insights orientados por IA para criar um ecossistema de suporte mais eficiente, responsivo e amigável.</p>
             </CardContent>
           </Card>
@@ -85,7 +85,7 @@ const AboutPage = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-muted-foreground">
-                Fornecer uma solução de help desk abrangente e aprimorada por IA que melhore significativamente a eficiência do suporte, reduza custos operacionais e aumente a satisfação do usuário por meio de automação inteligente e insights baseados em dados.
+                Fornecer uma solução de chamados abrangente e aprimorada por IA que melhore significativamente a eficiência do suporte, reduza custos operacionais e aumente a satisfação do usuário por meio de automação inteligente e insights baseados em dados.
               </CardContent>
             </Card>
           </motion.div>
