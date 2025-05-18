@@ -13,7 +13,7 @@ const teamMembers = [
   { name: "LUCAS JESUS", studentId: "R075CI2", role: "Analista de Diagramas", photo: "img/avatarlucasjesus.png" },
   { name: "LUCAS SOUSA", studentId: "G985834", role: "Testes / QA" },
   { name: "NATHAN DE SOUZA", studentId: "G8972D8", role: "Especialista LGPD / ANPD" },
-  { name: "ROANY RAFAELA", studentId: "T477JC9", role: "Analista de Requisitos / Regras de Negócio", photo: "img/avatarroany.png" },
+  { name: "ROANY RAFAELA", studentId: "T477JC9", role: "Analista de Testes / Regras de Negócio", photo: "img/avatarroany.png" },
   { name: "VITOR DE ARAGÃO", studentId: "G868366", role: "DBA / Modelagem de Dados" },
   { name: "VICTORIA INGRID", studentId: "R0460H2", role: "Líder de Projeto / Extensão Universitária" },
 ];

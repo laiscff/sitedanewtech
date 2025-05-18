@@ -41,7 +41,7 @@ const AnimatedRoutes = () => {
 
 function App() {
   return (
-    <Router basename="/horizons-project">
+    <Router basename="/sitedanewtech">
       <div className="flex flex-col min-h-screen bg-background">
         <Navbar />
         <Suspense fallback={<PageLoader />}>

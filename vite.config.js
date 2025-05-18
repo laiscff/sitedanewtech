@@ -183,7 +183,7 @@ logger.error = (msg, options) => {
 
 export default defineConfig({
 	customLogger: logger,
-	base: '/horizons-project/',
+	base: '/sitedanewtech/',
 	plugins: [react(), addTransformIndexHtml],
 	server: {
 		cors: true,

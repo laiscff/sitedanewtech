@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://laiscff.github.io/horizons-project",
+  "homepage": "https://laiscff.github.io/sitedanewtech",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
