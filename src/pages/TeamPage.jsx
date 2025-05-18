@@ -9,11 +9,11 @@ const teamMembers = [
   { name: "BRUNA SILVA", studentId: "R101BH8", role: "Documentação / Manual de Uso" },
   { name: "GABRIEL PASSOS", studentId: "G893018", role: "Desenvolvedor Backend" },
   { name: "KAILANE BARBOSA", studentId: "G896EB7", role: "Levantamento de Requisitos" },
-  { name: "LAIS COSTA", studentId: "G006II8", role: "Desenvolvedora Frontend UI/UX", photo: "/img/avatarlais.png" },
-  { name: "LUCAS JESUS", studentId: "R075CI2", role: "Analista de Diagramas", photo: "/img/avatarlucasjesus.png" },
+  { name: "LAIS COSTA", studentId: "G006II8", role: "Desenvolvedora Frontend UI/UX", photo: "img/avatarlais.png" },
+  { name: "LUCAS JESUS", studentId: "R075CI2", role: "Analista de Diagramas", photo: "img/avatarlucasjesus.png" },
   { name: "LUCAS SOUSA", studentId: "G985834", role: "Testes / QA" },
   { name: "NATHAN DE SOUZA", studentId: "G8972D8", role: "Especialista LGPD / ANPD" },
-  { name: "ROANY RAFAELA", studentId: "T477JC9", role: "Analista de Requisitos / Regras de Negócio", photo: "/img/avatarroany.png" },
+  { name: "ROANY RAFAELA", studentId: "T477JC9", role: "Analista de Requisitos / Regras de Negócio", photo: "img/avatarroany.png" },
   { name: "VITOR DE ARAGÃO", studentId: "G868366", role: "DBA / Modelagem de Dados" },
   { name: "VICTORIA INGRID", studentId: "R0460H2", role: "Líder de Projeto / Extensão Universitária" },
 ];
@@ -84,7 +84,7 @@ const TeamPage = () => {
                     <img  
                       className="w-32 h-32 rounded-full object-cover border-4 border-background shadow-md" 
                       alt={`Foto de ${member.name}`}
-                      src={member.photo || "/img/avatarlais.png"}  />
+                      src={`${import.meta.env.BASE_URL}${member.photo || 'img/avatarlais.png'}`}  />
                    </div>
                 </motion.div>
                 <CardTitle className="text-2xl font-bold text-foreground">{member.name}</CardTitle>
