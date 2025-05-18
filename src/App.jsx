@@ -41,7 +41,7 @@ const AnimatedRoutes = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/horizons-project">
       <div className="flex flex-col min-h-screen bg-background">
         <Navbar />
         <Suspense fallback={<PageLoader />}>
