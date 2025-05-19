@@ -7,15 +7,15 @@ import { UserCircle2 } from 'lucide-react';
 const teamMembers = [
   
   { name: "BRUNA SILVA", studentId: "R101BH8", role: "Documentação / Manual de Uso", photo: "img/avatarbruna.jpeg" },
-  { name: "GABRIEL PASSOS", studentId: "G893018", role: "Desenvolvedor Backend", photo: "img/avatarbiel.jpeg" },
-  { name: "KAILANE BARBOSA", studentId: "G896EB7", role: "Levantamento de Requisitos", photo: "img/avatarkai.jpeg" },
-  { name: "LAIS COSTA", studentId: "G006II8", role: "Desenvolvedora Frontend UI/UX", photo: "img/avatarlais.png" },
-  { name: "LUCAS JESUS", studentId: "R075CI2", role: "Analista de Diagramas", photo: "img/avatarlucasjesus.png" },
-  { name: "LUCAS SOUSA", studentId: "G985834", role: "Testes / QA", photo: "img/avatarlucass.jpeg" },
+  { name: "GABRIEL PASSOS", studentId: "G893018", role: "Desenvolvedor Backend", photo: "img/avatarbiel1.png" },
+  { name: "KAILANE BARBOSA", studentId: "G896EB7", role: "Levantamento de Requisitos", photo: "img/avatarkai3.png" },
+  { name: "LAIS COSTA", studentId: "G006II8", role: "Desenvolvedora Frontend UI/UX", photo: "img/avatarlais1.png" },
+  { name: "LUCAS JESUS", studentId: "R075CI2", role: "Analista de Diagramas", photo: "img/avatarlucasj1.png" },
+  { name: "LUCAS SOUSA", studentId: "G985834", role: "Testes / QA", photo: "img/avatarlucass1.png" },
   { name: "NATHAN DE SOUZA", studentId: "G8972D8", role: "Especialista LGPD / ANPD", photo: "img/avatarnathan.png" },
-  { name: "ROANY RAFAELA", studentId: "T477JC9", role: "Analista de Requisitos / Regras de Negócio", photo: "img/avatarroany.png" },
-  { name: "VITOR DE ARAGÃO", studentId: "G868366", role: "DBA / Modelagem de Dados", photo: "img/avatarvictor.png" },
-  { name: "VICTORIA INGRID", studentId: "R0460H2", role: "Líder de Projeto / Extensão Universitária", photo: "img/avatarvic.png" },
+  { name: "ROANY RAFAELA", studentId: "T477JC9", role: "Analista de Requisitos / Regras de Negócio", photo: "img/avatarroany1.png" },
+  { name: "VITOR DE ARAGÃO", studentId: "G868366", role: "DBA / Modelagem de Dados", photo: "img/avatarvitor1.png" },
+  { name: "VICTORIA INGRID", studentId: "R0460H2", role: "Líder de Projeto / Extensão Universitária", photo: "img/avatarvic2.png" },
 ];
 
 
