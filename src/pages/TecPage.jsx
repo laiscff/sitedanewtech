@@ -18,7 +18,7 @@ const prototypesData = [
     icon: <Monitor className="h-12 w-12 text-primary" />,
     description: "Apresenta a estrutura das entidades principais que compõem o sistema. Define claramente seus atributos e métodos, além dos relacionamentos existentes.",
     altText: "Define claramente seus atributos e métodos, além dos relacionamentos existentes.",
-    imageUrl: "/img/caca.png"
+    imageUrl: "/sitedanewtech//img/caca.png"
   },
   {
     id: 3,
