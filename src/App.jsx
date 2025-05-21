@@ -10,8 +10,10 @@ const HomePage = lazy(() => import('@/pages/HomePage'));
 const AboutPage = lazy(() => import('@/pages/AboutPage'));
 const FeaturesPage = lazy(() => import('@/pages/FeaturesPage'));
 const PrototypesPage = lazy(() => import('@/pages/PrototypesPage'));
+const TecPage = lazy(() => import('@/pages/TecPage'));
 const TeamPage = lazy(() => import('@/pages/TeamPage'));
 const ContactPage = lazy(() => import('@/pages/ContactPage'));
+
 
 const PageLoader = () => (
   <div className="flex justify-center items-center h-screen bg-background">
@@ -32,6 +34,7 @@ const AnimatedRoutes = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/features" element={<FeaturesPage />} />
         <Route path="/prototypes" element={<PrototypesPage />} />
+        <Route path="/tecpage" element={<TecPage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
