@@ -10,7 +10,7 @@ const prototypesData = [
     icon: <Monitor className="h-12 w-12 text-primary" />,
     description: "Demonstra a estrutura lógica e as relações entre as entidades do banco de dados utilizado no sistema. Cada tabela reflete um aspecto específico da gestão dos chamados técnicos.",
     altText: "Cada tabela reflete um aspecto específico da gestão dos chamados técnicos.",
-    imageUrl: "/img/coisa.png"
+    imageUrl: "/sitedanewtech/img/coisa.png"
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const prototypesData = [
     icon: <Monitor className="h-12 w-12 text-primary" />,
     description: "Apresenta a estrutura das entidades principais que compõem o sistema. Define claramente seus atributos e métodos, além dos relacionamentos existentes.",
     altText: "Define claramente seus atributos e métodos, além dos relacionamentos existentes.",
-    imageUrl: "/sitedanewtech//img/caca.png"
+    imageUrl: "/sitedanewtech/img/caca.png"
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const prototypesData = [
     icon: <Smartphone className="h-12 w-12 text-primary" />,
     description: "Apresenta as principais funcionalidades e interações do sistema. Os usuários são classificados em três perfis: Usuário (colaborador), Técnico e Administrador.",
     altText: "Os usuários são classificados em três perfis: Usuário (colaborador), Técnico e Administrador.",
-    imageUrl: "/img/wwee.png"
+    imageUrl: "/sitedanewtech/img/wwee.png"
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const prototypesData = [
     icon: <Monitor className="h-12 w-12 text-primary" />,
     description: "Detalhando a arquitetura tecnológica e a comunicação entre os componentes principais. Ilustra como o sistema será implantado fisicamente",
     altText: "Detalhando a arquitetura tecnológica e a comunicação entre os componentes principais.",
-    imageUrl: "/img/jaja.png"
+    imageUrl: "/sitedanewtech/img/jaja.png"
   }
 ];
 
