@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Lightbulb, Target, Cpu, Database, Layers, Brain } from 'lucide-react';
+import { CheckCircle, DollarSign, Users } from 'lucide-react';
 
 const AboutPage = () => {
   const containerVariants = {

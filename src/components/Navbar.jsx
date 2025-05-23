@@ -9,7 +9,8 @@ const navLinks = [
   { to: '/about', label: 'Sobre' },
   { to: '/features', label: 'Funcionalidades' },
   { to: '/prototypes', label: 'Protótipos' },
-  { to: '/tecpage', label: 'Documentação Técnica' },
+  { to: '/tecpage', label: 'Docs' },
+  { to: '/finanpage', label: 'Custos' },
   { to: '/team', label: 'Equipe' },
   { to: '/contact', label: 'Contato' },
 ];
