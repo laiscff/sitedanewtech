@@ -34,7 +34,7 @@ const prototypesData = [
     icon: <Monitor className="h-12 w-12 text-primary" />,
     description: "Detalhando a arquitetura tecnológica e a comunicação entre os componentes principais. Ilustra como o sistema será implantado fisicamente.",
     altText: "Detalhando a arquitetura tecnológica e a comunicação entre os componentes principais.",
-    imageUrl: "/sitedanewtech/img/jaja.png"
+    imageUrl: "/sitedanewtech/img/implantt.png"
   }
 ];
 
